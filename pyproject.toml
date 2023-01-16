@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "typing-speed-game"
+version = "0.1.0"
+description = "A Typing Speed Game"
+authors = ["Eliaz Bobadilla <ultirequiem@pm.me>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "typing_speed_game"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
