@@ -4,6 +4,18 @@
 
 Typing Speed Test
 
+## Install
+
+```sh
+pip install tsg
+```
+
+## Run
+
+```
+tsg
+```
+
 ## Live Coding
 
 **TODO**
