@@ -4,21 +4,14 @@ import random
 import sys
 import time
 
+from .assets import assets
+
 # Must be set before importing Pygame
 os.environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "hide"
 
 import pygame
 import pygame.locals
 
-
-assets_directory = "./assets"
-
-assets = {
-    "background": f"{assets_directory}/background.jpg",
-    "icon": f"{assets_directory}/icon.png",
-    "sentences": f"{assets_directory}/sentences.json",
-    "cover": f"{assets_directory}/type-speed.png",
-}
 
 TITLE = "Typing speed test"
 
