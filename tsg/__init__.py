@@ -47,7 +47,7 @@ class Game:
         self.cover = pygame.transform.scale(self.cover, (self.width, self.height))
 
         self.background = pygame.image.load(assets["background"])
-        self.background = pygame.transform.scale(self.background, (500, 750))
+        self.background = pygame.transform.scale(self.background, (self.width, self.height))
 
         self.screen = pygame.display.set_mode((self.width, self.height))
         pygame.display.set_caption(TITLE)

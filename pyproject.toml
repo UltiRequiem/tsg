@@ -5,7 +5,7 @@ description = "A Typing Speed Game"
 authors = ["Eliaz Bobadilla <ultirequiem@pm.me>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "tsg"}, {include = "assets"}]
+packages = [{include = "tsg"}, {include = "tsg/assets"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
