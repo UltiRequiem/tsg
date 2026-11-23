@@ -29,7 +29,7 @@ Changelog = "https://github.com/UltiRequiem/tsg/blob/main/CHANGELOG.md"
 tsg = "tsg:main"
 
 [dependency-groups]
-dev = ["pytest>=8", "ruff>=0.17.5"]
+dev = ["pytest>=8", "ruff>=0.17.6"]
 
 [tool.hatch.build.targets.wheel]
 packages = ["tsg"]
